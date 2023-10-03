@@ -87,6 +87,60 @@ body {
     color: var(--colorbtns);
 }
 
+.header ion-icon {
+    display: none;
+    font-size: 25px;
+}
+
+.header .navigation-drawer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 0;
+    align-items: flex-start;
+    width: 65%;
+    height: 100%;
+    background: #424242;
+    padding: 1.5rem;
+    transition:0.5s;
+}
+
+.header .navigation-drawer.inactive {
+    transform: translateX(1000px);
+}
+
+.header .navigation-drawer.active {
+    transform: scale3d(1);
+}
+
+.header .navigation-drawer .nav-drawer-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .navigation-drawer .nav-drawer-top h2 {
+    color: white;
+}
+.header .navigation-drawer .nav-drawer-top ion-icon {
+    color: white;
+}
+
+.header .navigation-drawer .links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.header .navigation-drawer .links a {
+    margin-top: 8px;
+    font-size: 4vw;
+    color: white;
+}
+
+
 .section {
     min-height: 100vh;
     padding: 10rem 9% 10rem;

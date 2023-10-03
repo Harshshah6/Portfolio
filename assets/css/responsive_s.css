@@ -4,12 +4,16 @@
         padding: 4%;
     }
 
-    .header .navlinks a{
+    .header .navlinks {
         display: none;
     }
 
     .header h2.heading {
         font-size: 8vw;
+    }
+
+    .header ion-icon {
+        display: block;
     }
 
     .home {

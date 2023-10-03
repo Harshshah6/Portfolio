@@ -20,4 +20,43 @@ window.onscroll = ()=>{
 
 let header = document.querySelector('header');
 
-header.classList.toggle('sticky', window.screenX>100)
+header.classList.toggle('sticky', window.screenX>100);
+
+let toggler = document.getElementById('menuico1');
+let toggler1 = document.getElementById('menuico');
+let navdrawer = document.getElementById('navigation-drawer');
+let menuitems = document.getElementsByClassName('menuitem');
+
+
+toggler.addEventListener('click', ()=>{
+    if(navdrawer.classList.contains('inactive')){
+        navdrawer.classList.remove('inactive')
+        navdrawer.classList.add('active')
+    }else{
+        navdrawer.classList.add('inactive');
+        navdrawer.classList.remove('active');
+    }
+});
+toggler1.addEventListener('click', ()=>{
+    if(navdrawer.classList.contains('inactive')){
+        navdrawer.classList.remove('inactive')
+        navdrawer.classList.add('active')
+    }else{
+        navdrawer.classList.add('inactive');
+        navdrawer.classList.remove('active');
+    }
+});
+
+
+for (let index = 0; index < menuitems.length; index++) {
+    const item = menuitems[index];
+    item.addEventListener('click', ()=>{
+        if(navdrawer.classList.contains('inactive')){
+            navdrawer.classList.remove('inactive')
+            navdrawer.classList.add('active')
+        }else{
+            navdrawer.classList.add('inactive');
+            navdrawer.classList.remove('active');
+        }
+    });
+}
