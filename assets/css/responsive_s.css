@@ -1,0 +1,155 @@
+@media only screen and (max-width: 425px) {
+
+    .header {
+        padding: 4%;
+    }
+
+    .header .navlinks a{
+        display: none;
+    }
+
+    .header h2.heading {
+        font-size: 8vw;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        align-items: normal;
+        justify-content: center;
+        padding: 8px;
+    }
+
+    .home .home-child1 {
+        padding: 4%;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .home-child1 .t1 {
+        font-size: 30px;
+    }
+    
+    .home-child1 .t2 {
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--colorbtns);
+    }
+    
+    .home-child1 .t3 {
+        font-size: 1.2rem;
+    }
+
+    .home-child2 img {
+        width: 60%;
+    }
+
+    .home .home-btns {
+        flex-direction: row;
+        gap: 12px;
+        margin-top: 1.2rem;
+    }
+
+    .home .home-btns button {
+        font-size: 5vw;
+        padding: 8px 14px;
+    }
+
+
+    .about {
+        padding: 4%;
+        flex-direction: column;
+    }
+
+    .about .about-content h2 {
+        font-size: 10vw;
+    }
+
+    .about .about-content h4 {
+        font-size: 6vw;
+    }
+
+    .about .about-img {
+        display: flex;
+        justify-content: center;
+    }
+    .about .logo-img {
+        width: 50%;
+    }
+
+
+    .services {
+        padding: 3rem 4%;
+    }
+
+    .services h2 {
+        font-size: 9vw;
+    }
+
+    .services .cards {
+        row-gap: 12px;
+        justify-content: center;
+    }
+
+    .skills {
+        padding: 3rem 4%;
+    }
+
+    .skills h2 {
+        font-size: 9vw;
+    }
+
+    .skills .skills-row {
+        gap: 14px;
+    }
+
+
+    .contact {
+        padding: 3rem 4%;
+    }
+
+    .contact h2 {
+        font-size: 9vw;
+    }
+
+    .footer .fsec1 {
+        flex-direction: column;
+    }
+
+    .footer .fsec1 .foo-heading {
+        font-size: 6vw;
+    }
+
+    .footer .fsec1 .foo-section {
+        margin-bottom: 12px;
+        border-bottom: 1px solid #9E9E9E;
+    }
+
+    .footer .fsec1 .foo-section p {
+        margin-top: 12px;
+        font-size: 4vw;
+    }
+
+    .footer .fsec1 .qlinkslist {
+        margin-top: 8px;
+    }
+
+    .footer .fsec1 .qlinkslist a {
+        font-size: 1.5em;
+        margin-bottom: 4px;
+    }
+
+    .footer .fsec2 {
+        border-top: none;
+        margin-top: 0;
+        padding: 4px;
+    }
+
+    .footer .fsec2 .foo-heading {
+        font-size: 10vw;
+    }
+
+    .footer .fsec2 a {
+        font-size: 12px;
+    }
+
+}
