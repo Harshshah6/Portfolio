@@ -47,7 +47,6 @@ toggler1.addEventListener('click', ()=>{
     }
 });
 
-
 for (let index = 0; index < menuitems.length; index++) {
     const item = menuitems[index];
     item.addEventListener('click', ()=>{
