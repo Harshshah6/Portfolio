@@ -271,10 +271,10 @@ span {
 }
 
 .services .cards .cards-item {
-    flex: 1;
+    flex-grow: 1;
     flex-basis: max-content;
     flex-wrap: nowrap;
-    display: flex;
+    display: flex; 
     flex-direction: column;
     border: 0 solid var(--textcolor);
     border-radius: 10px;
