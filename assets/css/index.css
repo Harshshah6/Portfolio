@@ -104,6 +104,7 @@ body {
     background: #424242;
     padding: 1.5rem;
     transition:0.5s;
+    display: none;
 }
 
 .header .navigation-drawer.inactive {

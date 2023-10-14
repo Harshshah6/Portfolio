@@ -17,6 +17,10 @@
 
     }
 
+    .header .navigation-drawer {
+        display: flex;
+    }
+
     .home {
         flex-direction: column-reverse;
         align-items: normal;
@@ -177,10 +181,4 @@
         font-size: 2rem;
     }
     
-}
-
-@media only screen and (min-width:691px) {
-    .header .navigation-drawer {
-        display: none;
-    }
 }
