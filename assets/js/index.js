@@ -1,6 +1,13 @@
 let navlinks = document.querySelectorAll('.navlinks a')
 let sections = document.querySelectorAll('section')
 
+document.getElementById('uparrow').style.display = 'none';
+if(window.scrollY > document.getElementById('home').clientHeight){
+    document.getElementById('uparrow').style.display = 'flex'
+}else{
+    document.getElementById('uparrow').style.display = 'none';
+}
+
 window.onscroll = ()=>{
     sections.forEach(sec =>{
         let top = window.scrollY;
@@ -16,6 +23,15 @@ window.onscroll = ()=>{
         }
 
     });
+
+    if(window.scrollY > document.getElementById('home').clientHeight){
+        document.getElementById('uparrow').style.display = 'flex'
+    }else{
+        document.getElementById('uparrow').style.display = 'none';
+    }
+
+    
+
 }
 
 let header = document.querySelector('header');
@@ -63,6 +79,10 @@ for (let index = 0; index < menuitems.length; index++) {
 
 document.getElementById("contactmebtn").addEventListener('click',()=>{
     scrolltoId('contact');
+});
+
+document.getElementById("uparrow").addEventListener('click',()=>{
+    scrolltoId('home');
 });
 
 function scrolltoId(id){

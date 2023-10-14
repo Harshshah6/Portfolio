@@ -31,6 +31,10 @@
     font-family: 'Montserrat', 'Poppins', sans-serif;
 }
 
+.visinone {
+    display: none;
+}
+
 html {
     font-size: 63%;
     overflow-x: hidden;
@@ -289,6 +293,8 @@ span {
 .services .cards .cards-item p {
     font-size: 1.3rem;
     margin-top: .9rem;
+    margin-bottom: .5em;
+    text-align: center;
 }
 
 .services .cards .cards-item .service-text {
@@ -573,4 +579,14 @@ span {
 .footer a:hover {
     font-weight: 300;
     color: white;
+}
+
+.footer > i {
+    position: fixed;
+    right: 5vw;
+    bottom: 5vw;
+    font-size: 4rem;
+    padding: 1.4rem;
+    align-self: center;
+    color: var(--colorbtns);
 }
