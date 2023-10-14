@@ -1,4 +1,4 @@
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 690px) {
 
     .header {
         padding: 4%;
@@ -14,7 +14,7 @@
 
     .header ion-icon {
         display: block;
-        
+
     }
 
     .home {
@@ -90,7 +90,7 @@
     }
 
     .services .cards {
-        row-gap: 12px;
+        gap: 2rem;
         justify-content: center;
     }
 
@@ -156,4 +156,31 @@
         font-size: 12px;
     }
 
+}
+
+@media only screen and (width: 768px) {
+
+    .home .home-child1 {
+        width: 200%;
+        padding: 12px;
+    }
+
+    .home .home-child2 img {
+        width: 80%;
+    }
+
+    .button {
+        font-size: 13px;
+    }
+
+    .footer .foo-heading {
+        font-size: 2rem;
+    }
+    
+}
+
+@media only screen and (min-width:691px) {
+    .header .navigation-drawer {
+        display: none;
+    }
 }

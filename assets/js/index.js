@@ -59,3 +59,13 @@ for (let index = 0; index < menuitems.length; index++) {
         }
     });
 }
+
+
+document.getElementById("contactmebtn").addEventListener('click',()=>{
+    scrolltoId('contact');
+});
+
+function scrolltoId(id){
+    var access = document.getElementById(id);
+    access.scrollIntoView({behavior: 'smooth'}, true);
+}

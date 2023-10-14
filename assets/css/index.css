@@ -259,7 +259,7 @@ span {
 .services .cards {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 5rem;
+    gap: 5rem;
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
