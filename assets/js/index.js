@@ -89,3 +89,15 @@ function scrolltoId(id){
     var access = document.getElementById(id);
     access.scrollIntoView({behavior: 'smooth'}, true);
 }
+
+let smc_yt = document.getElementById('smcyt');
+let smc_tg = document.getElementById('smctg');
+let smc_ig = document.getElementById('smcig');
+let smc_gh = document.getElementById('smcgh');
+let smc_dc = document.getElementById('smcdc');
+
+smc_yt.addEventListener('click', ()=>{ window.open("https://www.youtube.com/legendarystreamer","_blank") });
+smc_tg.addEventListener('click', ()=>{ window.open("https://t.me/legendary_streamer_official","_blank") });
+smc_ig.addEventListener('click', ()=>{ window.open("https://www.instagram.com/legendary_streamer_official","_blank") });
+smc_gh.addEventListener('click', ()=>{ window.open("https://www.github.com/harshshah6","_blank") });
+smc_dc.addEventListener('click', ()=>{ window.open("#","_blank") });

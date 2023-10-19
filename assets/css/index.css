@@ -501,6 +501,26 @@ span {
     -moz-appearance: textfield;
 }
 
+.social-medias-contact {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    transition:.3s;
+}
+
+.social-medias-contact > i {
+    font-size: 2.5rem;
+    transition:all .3s;
+}
+
+.social-medias-contact > i:hover {
+    opacity: 70%;
+    scale: 1.1;
+}
+
 .footer  {
     background: var(--secondarytextcolor);
     min-height: 20vh;
@@ -579,8 +599,9 @@ span {
 }
 
 .footer a:hover {
-    font-weight: 300;
-    color: white;
+    /* font-weight: 300;
+    color: white; */
+    opacity: 70%;
 }
 
 .footer > i {
