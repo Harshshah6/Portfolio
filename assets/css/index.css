@@ -271,9 +271,8 @@ span {
 }
 
 .services .cards .cards-item {
-    flex-grow: 1;
-    flex-basis: max-content;
-    flex-wrap: nowrap;
+    flex: 1;
+    min-width: 200px;
     display: flex; 
     flex-direction: column;
     border: 0 solid var(--textcolor);
